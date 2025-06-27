@@ -3,7 +3,7 @@ from sqlalchemy.orm import declarative_base, relationship
 from sqlalchemy import Column, Integer, String, ForeignKey, DateTime, func, UniqueConstraint
 
 # Настройки подключения к базе данных
-DATABASE_URL = "postgresql+asyncpg://botcanal:botcanal@localhost:5432/botcanal"
+DATABASE_URL = "postgresql+asyncpg://xxxxxx:xxxxxx@xxxx:xxxx/xxxxx"
 
 # Создание асинхронного движка SQLAlchemy
 engine = create_async_engine(DATABASE_URL, echo=True)
